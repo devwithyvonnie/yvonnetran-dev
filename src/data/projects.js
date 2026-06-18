@@ -1,57 +1,67 @@
 export const projects = [
-    {
-      number: "01",
-      title: "Mythos CRM",
-      backgroundWord: "SYSTEM",
-      image: "/images/mythos-dashboard.png",
-      liveUrl: "https://mythos-crm.vercel.app/",
-      githubUrl: "https://github.com/tranyvonne-fs/2511-WDV349-TranYvonne",
-      type: "Full-Stack CRM Application",
-      description:
-        "A role-based customer relationship management system designed for travel agencies to manage guests, trips, messages, and client communication workflows.",
-      stack: ["React", "Node.js", "Express", "REST API", "Vercel"],
-      mood: "Structured, product-focused, operational",
-    },
-  
-    {
-      number: "02",
-      title: "T Beauty Lounge",
-      backgroundWord: "LUXURY",
-      image: "/images/tbeauty-home.png",
-      liveUrl: "https://www.tbeautylounge.com",
-      githubUrl: "https://github.com/devwithyvonnie/tbeauty-lounge",
-      type: "Client Business Website",
-      description:
-        "A modern service-based website for a beauty and wellness business, focused on clear navigation, service discovery, branding, and client trust.",
-      stack: ["React", "Vite", "Tailwind", "Responsive Design"],
-      mood: "Soft, elegant, wellness-focused",
-    },
-  
-    {
-      number: "03",
-      title: "Tomo Japanese Cuisine",
-      backgroundWord: "STORY",
-      image: "/images/tomo-menu.png",
-      liveUrl: "https://www.tomojapanesecuisines.com",
-      githubUrl: "https://github.com/devwithyvonnie/tomo-japanesecuisine",
-      type: "Restaurant Website",
-      description:
-        "A modern restaurant website experience built to showcase menu content, atmosphere, and brand presence with clean visual hierarchy.",
-      stack: ["React", "CSS", "UI Design", "Content Structure"],
-      mood: "Warm, cultural, inviting",
-    },
-  
-    {
-      number: "04",
-      title: "Kitsune Sensei",
-      backgroundWord: "LEARN",
-      image: "/images/kitsune-dashboard.png",
-      liveUrl: "",
-      githubUrl: "",
-      type: "AI Japanese Learning Assistant",
-      description:
-        "An interactive Japanese learning platform concept focused on hiragana, katakana, kanji, quizzes, progress tracking, and guided study experiences.",
-      stack: ["React", "Local Storage", "Interactive UI", "AI Concept"],
-      mood: "Playful, educational, immersive",
-    },
-  ];
+  {
+    number: "01",
+    title: "Mythos CRM",
+    backgroundWord: "SYSTEM",
+    image: "/images/mythos-dashboard.png",
+    liveUrl: "https://mythos-crm.vercel.app/",
+    githubUrl: "https://github.com/tranyvonne-fs/2511-WDV349-TranYvonne",
+    type: "Full-Stack CRM Application",
+    description:
+      "Built a role-based CRM from scratch for travel agencies — authenticated user roles, guest and trip management, and a full client communication workflow. Architected the REST API in Express, wired it to a React frontend, and deployed the full stack to Vercel.",
+    stack: ["React", "Node.js", "Express", "REST API", "Vercel"],
+    mood: "Structured · product-focused · operational",
+  },
+  {
+    number: "02",
+    title: "Transit Delay",
+    backgroundWord: "遅延",
+    image: "/images/dashboard-screenshot.png",
+    liveUrl: "https://japan-transit-delay.vercel.app/",
+    githubUrl: "https://github.com/devwithyvonnie/japan-transit-delay",
+    type: "ML · Data Science · Full Stack",
+    description:
+      "Built end-to-end — from raw data collection and feature engineering to a deployed ML pipeline. Solved a class imbalance problem (89% on-time vs 11% delayed) that made the first model useless, then selected balanced logistic regression for its recall/accuracy tradeoff. Live weather from Open-Meteo feeds 16 engineered features into a FastAPI backend, returning a delay probability in under 2 seconds.",
+    stack: ["Python", "Scikit-learn", "FastAPI", "React", "Vite", "Open-Meteo API"],
+    mood: "Data science · end-to-end · Japan-rooted",
+  },
+  {
+    number: "03",
+    title: "T Beauty Lounge",
+    backgroundWord: "LUXURY",
+    image: "/images/tbeauty-home.png",
+    liveUrl: "https://www.tbeautylounge.com",
+    githubUrl: "https://github.com/devwithyvonnie/tbeauty-lounge",
+    type: "Client Business Website",
+    description:
+      "Designed and built the full client-facing website for a medical spa I also operate — which meant I understood the business requirements before writing a line of code. Focused on service discovery, brand trust, and mobile-first layout for a clientele that books primarily from their phones.",
+    stack: ["React", "Vite", "Tailwind", "Responsive Design"],
+    mood: "Soft · elegant · wellness-focused",
+  },
+  {
+    number: "04",
+    title: "Tomo Japanese Cuisine",
+    backgroundWord: "STORY",
+    image: "/images/tomo-menu.png",
+    liveUrl: "https://www.tomojapanesecuisines.com",
+    githubUrl: "https://github.com/devwithyvonnie/tomo-japanesecuisine",
+    type: "Restaurant Website",
+    description:
+      "Rebuilt the web presence for an active Japanese restaurant in Goodyear, AZ — balancing atmosphere and practicality. Designed for menu clarity and brand warmth, with a visual hierarchy that guides first-time visitors from discovery to dining decision.",
+    stack: ["React", "CSS", "UI Design", "Content Structure"],
+    mood: "Warm · cultural · inviting",
+  },
+  {
+    number: "05",
+    title: "Kitsune Sensei",
+    backgroundWord: "LEARN",
+    image: "/images/kitsune-dashboard.png",
+    liveUrl: "",
+    githubUrl: "",
+    type: "AI Japanese Learning Assistant",
+    description:
+      "A concept for an AI-powered Japanese learning companion covering hiragana, katakana, kanji, and guided quizzes. Designed the full UX flow and progress tracking system — currently in development.",
+    stack: ["React", "Local Storage", "Interactive UI", "AI Concept"],
+    mood: "Playful · educational · immersive",
+  },
+];
